@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+}
+
+#app {
+  background-color: #efefd0;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 20px 20px 50px;
+  position: relative;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 14px 10px;
+  width: calc(100% - 73px);
+}
+
+button {
+  background: #1a659e;
+  border: none;
+  color: white;
+  padding: 15px 10px;
+  text-transform: uppercase;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #004e89;
+}
+
+ul {
+  list-style-type: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+li {
+  border-bottom: 1px solid #004e89;
+  padding: 8px 0;
+}
+
+li:first-of-type {
+  border-top: 1px solid #004e89;
+}
+
+#user-count-container {
+  bottom: 10px;
+  font-size: 12px;
+  position: absolute;
+  right: 20px;
+}
